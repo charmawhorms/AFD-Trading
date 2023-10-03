@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Charma Whorms">
+    <meta name="keywords" content="AFD Trading, Electronics, Mobile Phones, Tablets, Desktops, Smart TV, Microwave, Home Entertainment System">
+    <link rel="icon" type="icon/png" size="32x32" href="images/CartLogo.png">
+    <title>AFD Trading</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!--Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <script type="text/javascript">
+        function toggleMenu(mPopup) {
+            document.getElementById(mPopup).classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.menuBtn')) {
+                var dropdowns = document.getElementsByClassName("menu-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        } 
+    </script>
+</head>
+<body>
+    <div class="ad-box">
+        <div class="advertisement">
+            <span class="advert">
+                <span class="ad-call">
+                    <i class="bi bi-telephone-forward-fill"></i>
+                    <p><b>Call Us Today!</b> 876-547-5765</p>
+                </span>
+                <span class="ad-email">
+                    <i class="bi bi-envelope"></i>
+                    <p><b>Email:</b> sales@AFDTrading.com</p>
+                </span>
+            </span>
+            <span class="social-media-icons">
+                <img src="images/facebook-app-symbol.png" class="facebook-icon" width="14" height="14">
+                <img src="images/linkedin.png">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+            </span>
+        </div>
+    </div>
+    
+    <div class="nav-bar">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/CartLogo.png" width="80" height="40">
+                    <h1>AFD Trading</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <button onclick="toggleMenu('popupMenu')" class="menuBtn">Products</button>
+                <div id="popupMenu" class="menu-content">
+                    <a href="products.html#phone-id">
+                        <span class="nav-links-items">
+                            <img src="images/smartphones.png" width="150" height="80">
+                            Mobile Phones
+                        </span>
+                    </a>
+                    <a href="products.html#tablet-id">
+                        <span class="nav-links-items">
+                            <img src="images/tablets.png" width="130" height="80">
+                            Tablets
+                        </span>
+                    </a>
+                    <a href="products.html#desktop-id">
+                        <span class="nav-links-items">
+                            <img src="images/desktop.png" width="130" height="80">
+                            Desktops
+                        </span>
+                    </a>
+                    <a href="products.html#smarttv-id">
+                        <span class="nav-links-items">
+                            <img src="images/smartTV.png" width="130" height="80">
+                            Smart TV
+                        </span>
+                    </a>
+                    <a href="products.html#microwave-id">
+                        <span class="nav-links-items">
+                            <img src="images/microwave.png" width="130" height="80">
+                            Microwave
+                        </span>
+                    </a>
+                    <a href="products.html#home-entertainment-system-id">
+                        <span class="nav-links-items">
+                            <img src="images/soundSystems.png" width="130" height="80">
+                            Home Entertainment System
+                        </span>
+                    </a>
+                  </div>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <i class="bi bi-cart"></i>
+                <i class="bi bi-search"></i>
+            </div>
+        </nav>
+    </div>
+
+    <section class="main-banner">
+        <img src="https://www.themagnificentmile.com/assets/Uploads/_resampled/ScaleWidthWzEyMDBd/ATT-Flagship.jpg">
+        <span>
+            <h1>Welcome</h1>
+        </span>
+    </section>
+
+    <div class="main">
+        <div class="main-content">
+            <p id="intro-paragraph">
+                AFD Trading, Jamaica's retailers for over 20 years, bring the best and latest advance technology to your home and office. When it comes to experience, no one can beat us! We are "Jamaica's Tech-Geeks"! Giving Jamaica years of excellent customer service, our team is always available to answer any questions with a smile:-)
+            </p>
+
+            <span class="categories">
+                <hr id="hr1"><h1>Shop By Categories</h1><hr id="hr2">
+            </span>
+            <div class="products">
+                <div>
+                    <a href=""><img src="images/smartphones.png" alt="" width="250" height="150"></a>
+                    <a href=""><h4>Smartphones</h4></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/tablets.png" alt="" width="250" height="150"></a>
+                    <a href=""><h4>Tablets</h4></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/desktop.png" alt="" width="220" height="150"></a>
+                    <a href=""><h4>Desktop Computers</h4></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/smartTV.png" alt="" width="250" height="150"></a>
+                    <a href=""><h4>Smart TVs</h4></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/microwave.png" alt="" width="250" height="150"></a>
+                    <a href=""><h4>Microwaves</h4></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/soundSystems.png" alt="" width="250" height="150"></a>
+                    <a href=""><h4>Home Entertainment Systems</h4></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <span>Copyright &copy; 2022. All Rights Reserved.</span>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Charma Whorms">
+    <meta name="keywords" content="AFD Trading, Electronics, Mobile Phones, Tablets, Desktops, Smart TV, Microwave, Home Entertainment System">
+    <link rel="icon" type="icon/png" size="32x32" href="images/CartLogo.png">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!--Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <script type="text/javascript">
+        function toggleMenu(mPopup) {
+            document.getElementById(mPopup).classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.menuBtn')) {
+                var dropdowns = document.getElementsByClassName("menu-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        } 
+    </script>
+</head>
+<body>
+    <div class="ad-box">
+        <div class="advertisement">
+            <span class="advert">
+                <span class="ad-call">
+                    <i class="bi bi-telephone-forward-fill"></i>
+                    <p><b>Call Us Today!</b> 876-547-5765</p>
+                </span>
+                <span class="ad-email">
+                    <i class="bi bi-envelope"></i>
+                    <p><b>Email:</b> sales@AFDTrading.com</p>
+                </span>
+            </span>
+            <span class="social-media-icons">
+                <img src="images/facebook-app-symbol.png" class="facebook-icon" width="14" height="14">
+                <img src="images/linkedin.png">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/CartLogo.png" width="80" height="40">
+                    <h1>AFD Trading</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <button onclick="toggleMenu('popupMenu')" class="menuBtn">Products</button>
+                <div id="popupMenu" class="menu-content">
+                    <a href="products.html#phone-id">
+                        <span class="nav-links-items">
+                            <img src="images/smartphones.png" width="150" height="80">
+                            Mobile Phones
+                        </span>
+                    </a>
+                    <a href="products.html#tablet-id">
+                        <span class="nav-links-items">
+                            <img src="images/tablets.png" width="130" height="80">
+                            Tablets
+                        </span>
+                    </a>
+                    <a href="products.html#desktop-id">
+                        <span class="nav-links-items">
+                            <img src="images/desktop.png" width="130" height="80">
+                            Desktops
+                        </span>
+                    </a>
+                    <a href="products.html#smarttv-id">
+                        <span class="nav-links-items">
+                            <img src="images/smartTV.png" width="130" height="80">
+                            Smart TV
+                        </span>
+                    </a>
+                    <a href="products.html#microwave-id">
+                        <span class="nav-links-items">
+                            <img src="images/microwave.png" width="130" height="80">
+                            Microwave
+                        </span>
+                    </a>
+                    <a href="products.html#home-entertainment-system-id">
+                        <span class="nav-links-items">
+                            <img src="images/soundSystems.png" width="130" height="80">
+                            Home Entertainment System
+                        </span>
+                    </a>
+                  </div>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <i class="bi bi-cart"></i>
+                <i class="bi bi-search"></i>
+            </div>
+        </nav>
+    </div>
+
+    <section class="products-banner">
+        <h1>Products</h1>
+    </section>
+
+    <section class="products-main">
+        <span class="categories">
+            <hr id="hr1"><h1 id="phone-id">Smartphones</h1><hr id="hr2">
+        </span>
+        <div class="different-smartphones">
+            <div class="product-item1">
+                <img src="images/alcatel1b.png" width="200" height="250">
+                <span class="details">
+                    <h2>Alcatel 1B</h2>
+                    <p><b>$16, 509.65 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/A03-Core.png" width="200" height="250">
+                <span class="details">
+                    <h2>Samsung A03 Core</h2>
+                    <p><b>$24, 408.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/iPhone13-Pro-Max.png" width="200" height="250">
+                <span class="details">
+                    <h2>iPhone 13 Pro Max</h2>
+                    <p><b>$225, 000.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+
+        <span class="categories">
+            <hr id="hr1"><h1 id="tablet-id">Tablets</h1><hr id="hr2">
+        </span>
+        <div class="different-tablets">
+            <div class="product-item1">
+                <img src="images/Samsung Tablet A7 Lite.png" width="200" height="250">
+                <span class="details">
+                    <h2>Samsung Tablet A7 Lite</h2>
+                    <p><b>$26, 000.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/ALCATEL-3T-10-LTE.png" width="200" height="250">
+                <span class="details">
+                    <h2>ALCATEL 3T 10" LTE</h2>
+                    <p><b>$26, 166.69 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/Samsung Galaxy Tab A 8.0.png" width="200" height="250">
+                <span class="details">
+                    <h2>Samsung Galaxy Tab A 8.0</h2>
+                    <p><b>$25, 650.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+
+        <span class="categories">
+            <hr id="hr1"><h1 id="desktop-id">Desktops</h1><hr id="hr2">
+        </span>
+        <div class="different-desktops">
+            <div class="product-item1">
+                <img src="images/iMac.png" width="300" height="250">
+                <span class="details">
+                    <h2>Apple 2021 iMac 24"</h2>
+                    <p><b>$195, 868.94 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/Acer.png" width="250" height="250">
+                <span class="details">
+                    <h2>Acer Aspire C27-962-UA91 AIO Desktop</h2>
+                    <p><b>$153, 649.30 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/Dell-Inspiron.png" width="250" height="250">
+                <span class="details">
+                    <h2>Dell Inspiron 7700 27 All-in-One Desktop</h2>
+                    <p><b>$346, 653.34 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+
+        <span class="categories">
+            <hr id="hr1"><h1 id="smarttv-id">Smart TV</h1><hr id="hr2">
+        </span>
+        <div class="different-smarttv">
+            <div class="product-item1">
+                <img src="images/tcl.png" width="300" height="200">
+                <span class="details">
+                    <h2>TCL 75"/4K HDR</h2>
+                    <p><b>$189, 999.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/lg.png" width="300" height="200">
+                <span class="details">
+                    <h2>LG 50"/4K UHD WebOS</h2>
+                    <p><b>$95, 999.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/mastertech.png" width="300" height="200">
+                <span class="details">
+                    <h2>Mastertech 32"</h2>
+                    <p><b>$24, 299.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+
+        <span class="categories">
+            <hr id="hr1"><h1 id="microwave-id">Microwave</h1><hr id="hr2">
+        </span>
+        <div class="different-microwave">
+            <div class="product-item1">
+                <img src="images/mastertech-microwave.png" width="300" height="200">
+                <span class="details">
+                    <h2>Mastertech Microwave</h2>
+                    <p><b>$14, 999.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/Whirlpool9.png" width="300" height="200">
+                <span class="details">
+                    <h2>Whirlpool 0.9cu. ft.</h2>
+                    <p><b>$19, 999.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/Whirlpool7.png" width="300" height="200">
+                <span class="details">
+                    <h2>Whirlpool 0.7cu. ft.</h2>
+                    <p><b>$15, 999.00 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+
+        <span class="categories">
+            <hr id="hr1"><h1 id="home-entertainment-system-id">Home Entertainment System</h1><hr id="hr2">
+        </span>
+        <div class="different-home-entertainment-system">
+            <div class="product-item1">
+                <img src="images/AcousticSurround.png" width="300" height="200">
+                <span class="details">
+                    <h2>Acoustic Audio AA5102 Bluetooth Powered 5.1 Speaker System Home Theater Surround</h2>
+                    <p><b>$15, 186.06 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item2">
+                <img src="images/AcousticSystem.png" width="300" height="150">
+                <span class="details">
+                    <h2>Acoustic Audio by Goldwood 2.1 Bluetooth Speaker System</h2>
+                    <p><b>$11, 384.99 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+            <div class="product-item3">
+                <img src="images/system3.png" width="300" height="150">
+                <span class="details">
+                    <h2>GPX HT050B 5.1 Channel Home Theater Speaker System</h2>
+                    <p><b>$17, 332.91 + GCT</b></p>
+                    <button>Add to Cart</button>
+                </span>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <span>Copyright &copy; 2022. All Rights Reserved.</span>
+    </footer>
+</body>

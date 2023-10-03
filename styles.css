@@ -1,0 +1,435 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, sans-serif;
+}
+
+/*Navigational Bar Top Section*/
+.advertisement{
+  background-color: #386290; 
+  color: white; 
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px;
+  align-items: center;
+}
+
+.ad-box{
+  background-color: #386290; 
+}
+
+.advert{
+  display: flex;
+  width: 40%;
+  font-size: 13px;
+}
+
+.ad-call{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.ad-call i{
+  margin-right: 10px;
+}
+
+.ad-email{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-email i{
+  margin-right: 10px;
+}
+
+.nav-bar{
+  padding: 20px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  background-color: #ffffff;
+  box-shadow: 0px 4px 0 rgba(95, 95, 95, 0.1);
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  margin-bottom: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 40px;
+}
+
+.logo a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #215892;
+}
+
+.logo h1{
+  margin-left: -20px;
+  font-weight: 700;
+}
+
+.nav-links a, .nav-links button{
+  text-decoration: none;
+  color: #000000;
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
+
+.nav-links{
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.nav-links a:hover, .nav-links button:hover{
+  background-color: #215892;
+  padding: 10px;
+  color: white;
+}
+
+.nav-links-items{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Menu Button */
+.menuBtn{
+  background-color: inherit;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The DIV container - required in order to position the popup menu items */
+.nav-links{
+  position: relative;
+  display: inline-block;
+}
+
+/* Menu Content (Hidden by Default) */
+.menu-content{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -450px;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Links inside the popup-menu */
+.menu-content a{
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of popup-menu links when the user hovers */
+.menu-content a:hover{
+    background-color: #f8f8f8;
+    color: black;
+  }
+
+/* Shows the Popup Menu - Adds the 'show' class to the .menu-content container when 
+the user clicks on the Menu Button) */
+.show{
+  display:flex;
+}
+
+.facebook-icon{
+  color: white;
+}
+
+.social-media-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12%;
+}
+
+.social-media-icons i, .social-media-icons img{
+  padding: 3px;
+  background-color: #95a3b3;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-icons{
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#intro-paragraph{
+  line-height: 25px;
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+}
+.main-banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-banner img{
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.main-banner span{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.main-banner h1{
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 180px;
+  text-shadow: 10px 10px #215892;
+}
+
+.main-content{
+  margin: 120px 70px 0px;
+}
+
+.categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+#hr1{
+  width: 20%;
+  border: none;
+  height: 1px;
+  background-color: #000000;
+  margin-right: 10px;
+}
+
+#hr2{
+  width: 20%;
+  border: none;
+  height: 1px;
+  background-color: #000000;
+  margin-left: 10px;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.products a{
+  text-decoration: none;
+}
+
+.products div{
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid rgb(252, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #000000;
+}
+
+.products h4{
+  color: #15133C;
+}
+
+.products div img, .products div h4{
+  transition: 0.5s all ease-in-out;
+}
+
+.products div:hover img, .products div:hover h4{
+  transform: scale(1.1);
+}
+
+footer{
+  background-color: #15133C;
+  color: #F1EEE9;
+  text-align: center;
+  padding: 2%;
+  margin-top: 10%;
+}
+
+
+/*Products Page*/
+.products-main{
+  margin: 60px 100px;
+}
+
+.different-smartphones, .different-tablets, .different-desktops, 
+.different-smarttv, .different-microwave, .different-home-entertainment-system{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  column-gap: 50px;
+}
+
+.product-item1, .product-item2, .product-item3{
+  background-color:#e9e9e9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-item1 img, .product-item2 img, .product-item3 img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.details{
+  line-height: 30px;
+}
+
+.details p{
+  color: #386290;
+}
+
+.different-smartphones button, .different-tablets button, .different-desktops button, .different-smarttv button, .different-microwave button, .different-home-entertainment-system button{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #386290;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*About Us Page*/
+.about-banner-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-banner-2 img{
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.about-banner-2 span{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.about-banner-2 h1{
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 120px;
+  text-shadow: 10px 10px #215892;
+}
+
+.about-container{
+  margin: 150px 60px ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.about-box1{
+  background-color:#727d8a;
+  width: 40%;
+  padding: 60px;
+  margin-left: 80px;
+  color: #ffffff;
+}
+
+.about-box2{
+  background-color:#215892;
+  width: 40%;
+  padding: 60px;
+  margin-left: 35em;
+  color: #ffffff;
+}
+
+.about-box3{
+  background-color:#15133C;
+  width: 40%;
+  padding: 60px;
+  margin-left: 80px;
+  color: #ffffff;
+}
+
+
+/*Contact Us Page*/
+.contact-banner, .about-banner, .products-banner{
+  width: 100%;
+  background: #95a3b3;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 80px;
+  text-shadow: 10px 10px #215892;
+}
+
+.contact-box{
+  margin: 60px 80px;
+}
+
+.contact-box h1{
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 50px;
+  color: #000000;
+  text-shadow: 5px 5px #95a3b3;
+}
+
+.contact-box span{
+  color: chocolate;
+}
+
+.contact-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-details h4{
+  color: #df9131;;
+  font-size: 20px;
+}
